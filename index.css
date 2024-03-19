@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background-color: #000000;
     width: auto;
 }
 .main {
@@ -14,8 +14,6 @@ header{
     margin-left: -10px;
     width: 101.2%;
     height: 70px;
-    /*background-color: rgb(123, 0, 154);*/
-
 }
 header h3{
     color: white;
@@ -27,7 +25,8 @@ header h3{
 }
 header ul{
     display: flex;
-    margin-top: -40px;
+    width: 80%;
+    margin-top: -60px;
     margin-left: 50px;
 }
 header ul li{
@@ -55,28 +54,29 @@ header ul li a:hover::after{
     width: 100%;
 }
 .Container{
-    width: 70%;
-    height: 1000px;
+    width: 80%;
+    height: auto;
     margin-left: auto;
     margin-right: auto;
-   /* background-color: rgb(59, 6, 67);*/
+   background-color:#000;
 }
 #Intro{
     height: 200px;
-    width: 98.4%;
+    width: 83.4%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    /*background-color: aqua;*/
+    /* background-color: aqua; */
     padding: 250px;
     margin-left: -250px;
+    
 }
 .Intro-lines{
     color: aliceblue;
     font-size: 40px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin-top: -590px;
+    /* margin-top: -590px; */
    /* background-color: aqua;*/
     text-align: left;
-    margin-left: -100px;
+     margin-left: 100px; 
 }
 .Intro-lines h6{
     color: aliceblue;
@@ -107,7 +107,7 @@ header ul li a:hover::after{
    /* background-color: rgba(146, 84, 74, 0.203);*/
     display: flex;
     border-radius: 40px;
-    margin-top: -600px;
+    margin-top: 80px;
 }
 .Profile-Dp{
     /*background-color: rebeccapurple;*/
@@ -214,22 +214,24 @@ header ul li a:hover::after{
 }
 .row1{
     height: auto;
-    width: 100%;
-    background-color:rgba(146, 84, 74, 0.203);
+    width: auto;
+    background-color:rgba(146, 84, 74, 0.073);
     border-radius: 40px;
     margin-top:25px;
     transition: 0.3s;
 }
 .row1:hover{
-    background-color:  rgba(253, 94, 94, 0.815);
+    background-color:  rgba(146, 84, 74, 0.267);
     height: 200px;
+    width: 100%;
+    font-size: 17px;
 }
 .row1 p{
     color: aliceblue;
-
+    font-size: 17px;
 }
 .row1 p:hover{
-    color: black;
+    color: rgb(141, 125, 125);
     font-size: 17px;
 }
 .row1 ul li{
@@ -239,8 +241,8 @@ header ul li a:hover::after{
 .Sbtn{
     height: 30px;
     width: 150px;
-    background-color: rgb(117, 102, 102);
-    margin-left: 880px;
+    /* background-color: rgb(117, 102, 102); */
+    margin-left: 980px;
     margin-top: -20px; 
     border-radius: 15px;
     color: aliceblue;
@@ -253,7 +255,7 @@ header ul li a:hover::after{
     height: 30px;
     width: 150px;
     background-color: rgb(117, 102, 102);
-    margin-left: 880px;
+    margin-left: 980px;
     margin-top: -20px;
     border-radius: 15px;
     color: aliceblue;
@@ -270,8 +272,63 @@ header ul li a:hover::after{
     border-radius: 40px;
     background-color: #000;
 }
+#My-projects{
+    margin-top: -270px;
+    height: 500px;
+    width: 100%;
+   /* background-color: rgba(146, 84, 74, 0.203);*/
+    border-radius: 40px;
+    background-color: #000;
+}
+.Project-contents{
+    /* margin-top: -480px; */
+    height: 500px;
+    width: 100%;
+   /* background-color: rgba(146, 84, 74, 0.203);*/
+    border-radius: 40px;
+}
+.rowP{
+    height: auto;
+    width: 100%;
+    background-color:rgba(146, 84, 74, 0.203);
+    border-radius: 40px;
+    margin-top:25px;
+    transition: 0.3s;
+}
+.rowP:hover{
+    background-color:  rgba(146, 84, 74, 0.267);
+    height: 200px;
+    width: 100%;
+    font-size: 17px;
+}
+.rowP p{
+    color: aliceblue;
+    font-size: 17px;
+}
+.rowP p:hover{
+    color: rgb(141, 125, 125);
+    font-size: 17px;
+}
+.rowP ul li{
+    color: aliceblue;
+    font-size: 20px;
+}
+.Pbtn{
+    height: 30px;
+    width: 150px;
+    background-color: rgb(117, 102, 102);
+    margin-left: 980px;
+    margin-top: -20px; 
+    border-radius: 15px;
+    color: aliceblue;
+    background-color:rgba(253, 94, 94, 0.815) ;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+
 .Status{
-    margin-top: -10px;
+    margin-top: -220px;
     height: 300px;
     width: 100%;
     /*background-color: rgba(0, 30, 255, 0.203);*/
@@ -280,7 +337,7 @@ header ul li a:hover::after{
 }
 
 #Skills{
-    margin-top: 240px;
+    margin-top: 340px;
     height: 630px;
     width: 100%;
    /*background-color: rgba(146, 84, 74, 0.203);*/
@@ -303,8 +360,8 @@ header ul li a:hover::after{
     border-style: solid;
 }
 .skillr1:hover{
-    background-color:  rgba(253, 94, 94, 0.815);
-    color: black;
+    background-color:  rgba(146, 84, 74, 0.267);
+    color: rgb(126, 112, 112);
     font-size: 17px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -328,8 +385,8 @@ header ul li a:hover::after{
 
 }
 .skillr2:hover{
-    background-color:  rgba(253, 94, 94, 0.815);
-    color: black;
+    background-color:  rgba(146, 84, 74, 0.267);
+    color: rgb(126, 112, 112);
     font-size: 17px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -456,7 +513,7 @@ form input, form textarea{
     height: 500px;
     width: 100%;
    /* background-color: rgba(146, 84, 74, 0.203);*/
-    border-radius: 40px
+    border-radius: 40px;
 }
 .Status-content{
     margin-top: 30px;
@@ -471,7 +528,7 @@ form input, form textarea{
 @media only screen and (max-width: 1440px){
     .main{
         background-image: url(images/bg4-phone.jpeg);
-        width: 1180px;
+        width: 1395px;
         height: 2430px;
         background-size: cover;
         background-repeat: no-repeat;
@@ -480,35 +537,36 @@ form input, form textarea{
         margin-top: -100px;
     }
     .Container{
-        margin-top: 900px;
-        width: 1180px;
-        /*background-color: blue;*/
+        margin-top: 1900px;
+        width: 1393px;
+        background-color: #000;
         height: auto;
-        margin-left: 10px;
+        margin-left: 5px;
     }
     header{
         margin-top: 40px;
-        margin-left: 0px;
+        margin-left: -60px;
         width: 1180px;
         height: 70px;
-        /*background-color: rgb(123, 0, 154);*/
+        /* background-color: rgb(123, 0, 154); */
     
     }
     header h3{
         font-size: 100px;
+        margin-left: 50px;
     }
     header ul{
         display: flex;
-        margin-top: -40px;
+        margin-top: -100px;
+        width: auto;
         margin-left: 10px;
-        width: 1120px;
-        /* background-color: aquamarine; */
+        /* background-color: rgb(197, 28, 28); */
     }
     header ul li{
         list-style: none;
         margin:10px 20px;
         margin-left: 10px;
-        width: 2220px;
+        width:auto;
         height: 80px;
         /* background-color:aquamarine;  */
     }
@@ -520,19 +578,19 @@ form input, form textarea{
     }    
     #Intro{
         height: 200px;
-        width: 58%;
+        width: 47.8%;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         /* background-color: aqua; */
         padding: 250px;
-        margin-left: -20px;
-        margin-top: -1800px;
+        margin-left: 230px;
+        margin-top: 1480px; 
     }
     .Intro-lines{
-        margin-left: -150px;
-        margin-top: 170px;
+        margin-left: 0px;
+        margin-top: 0px;
         font-size: 100px;
-        color: rgb(144, 229, 255);
-         /* background-color: aquamarine;  */
+        color: rgb(253, 253, 253);
+        /* background-color: aquamarine;   */
         width: 800px;
     }
     .Intro-lines h6{
@@ -545,8 +603,8 @@ form input, form textarea{
         
     }
     #Profile{
-        margin-top: 330px;
-        background-color: rgba(255, 196, 196, 0.315);
+        margin-top: -1510px;
+        background-color: rgba(255, 196, 196, 0);
         height: 2400px;
     }
     .Profile-Dp{
@@ -559,8 +617,9 @@ form input, form textarea{
         width: 350px;
     }
     .Profile-content{
+        width: 1049px;
         margin-left: 10px;
-        height: 2400px;
+        height: 2000px;
         background-color: #000;
     }
     .Cont-Nav{
@@ -605,12 +664,15 @@ form input, form textarea{
     #Portfolio{
         /* background-color: blueviolet; */
         height:auto;
+        margin-top: -300px;
     }
     .port_exp-nav{
         font-size: 40px;
+        margin-top: auto;
     }
     .port_exp-nav p{
         font-size: 100px;
+        margin-top: 10px;
     }
     .Portfolio-contents{
         margin-top: 140px;
@@ -626,11 +688,11 @@ form input, form textarea{
         font-family: Arial, Helvetica, sans-serif;
     }
     .row1:hover{
-        background-color:  rgba(253, 94, 94, 0.815);
+        background-color:  rgba(146, 84, 74, 0.267);
         height: auto;
     }
     .row1 p:hover{
-        color: rgb(0, 0, 0);
+        color: rgb(111, 100, 100);
         font-size: 48px;
     }
     ul li{
@@ -673,14 +735,14 @@ form input, form textarea{
         font-size: 38px;
     }
     #Experience{
-        margin-top: 30px;
+        margin-top: -40px;
         height: auto;
         width: 100%;
         /* background-color: aquamarine; */
         border-radius: 40px;
     }
     .Experience-content{
-        margin-top: 150px;
+        margin-top: 165px;
         height: auto;
         width: 100%;
         /* background-color: blueviolet; */
@@ -697,8 +759,51 @@ form input, form textarea{
         width: 280px;
         font-size: 30px;
     }
+    #My-projects{
+        /* background-color: blueviolet; */
+        height:auto;
+        margin-top: 10px;
+    }
+    .Project-contents{
+        margin-top: 165px;
+        height: auto;
+        width: 100%;
+        /* background-color: blueviolet; */
+        border-radius: 40px;
+    }
+    .Pbtn{
+        height: 80px;
+        width: 280px;
+        font-size: 30px;
+    }
+    .rowP{
+        margin-top: 30px;
+        height: auto;
+        background-color: #000;
+    }
+    .rowP p{
+        font-size: 48px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .rowP:hover{
+        background-color:  rgba(146, 84, 74, 0.267);
+        height: auto;
+    }
+    .rowP p:hover{
+        color: rgb(111, 100, 100);
+        font-size: 48px;
+    }
+    ul li{
+        font-size: 50px;
+        color:rgba(255, 255, 255, 0.815);
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .rowP ul li{
+        font-size: 50px;
+        color:rgba(255, 255, 255, 0.815);
+    }
     .Status{
-        margin-top: -10px;
+        margin-top: 10px;
         height: auto;
         width: 100%;
         /*background-color: rgba(0, 30, 255, 0.203);*/
@@ -720,14 +825,16 @@ form input, form textarea{
     }
     .contact-container p{
         color: aliceblue;
-        font-size: 48px; 
+        font-size: 48px;
+        margin-left: 10px;
+        text-align: center;
     }
     .contact-nav{
         font-size: 48px;
         font-family: Arial, Helvetica, sans-serif;
         color: aliceblue;
-        text-align: left;
-        margin-left: 325px;
+        text-align: center;
+        /* margin-left: 425px; */
         margin-top: -90px;
         /* background-color: red; */
     }
@@ -738,9 +845,10 @@ form input, form textarea{
         font-size: 38px;
         margin-top: 0px;
         margin-left: -18px;
+        text-align: center;
     }
     .social-icons{
-        margin-left: 30px;
+        margin-left: 90px;
     }
     .social-icons a{
         text-decoration: none;
@@ -755,7 +863,7 @@ form input, form textarea{
         width: 280px;
         font-size: 38px;
         border-radius: 50px;
-        margin-left: 400px;
+        margin-left: 540px;
     }
     .dwnld-CV a{
         font-size: 38px;
@@ -790,5 +898,12 @@ form input, form textarea{
         font-size: 38px;
         border-radius: 50px;
         margin-left: -140px;
+    }
+    #msg{
+        color: rgb(21, 255, 0);
+        display: block;
+        font-size: 20px;
+        margin-left: -400px;
+        margin-top: 100px;
     }
 }

@@ -18,17 +18,18 @@
             <li><a href="#Portfolio">Portfolio</a></li>
             <li><a href="#Skills">Skills</a></li>
             <li><a href="#Experience">Experience</a></li>
+            <li><a href="#My-projects">Projects</a></li>
             <li><a href="#Contact">Services</a></li>
         </ul>
      </header>
+     <div id="Intro">
+        <div class="Intro-lines">
+          Hi!<br>I am Devadarsh<h6>FRONT END DEVELOPER</h6>
+          <button onclick="window.location.href='mailto:web.connect.deva@gmail.com?Subject=Hiring'">Hire</button>
+        </div>  
+    </div>
     </div> 
     <div class="Container">
-        <div id="Intro">
-            <div class="Intro-lines">
-              Hi!<br>I am Devadarsh<h6>FRONT END DEVELOPER</h6>
-              <button onclick="window.location.href='mailto:web.connect.deva@gmail.com?Subject=Hiring'">Hire</button>
-            </div>  
-        </div>
        <div id="Profile">
          <div class="Profile-Dp">
             <img src="images/DP.jpg" alt="">
@@ -70,10 +71,10 @@
             <ul>
                 <li>Robotics</li>
                 <p class="port-disc">During my internship at TechMaghi, I had the incredible opportunity to dive into the world of robotics and contribute to cutting-edge projects. Under the guidance of experienced engineers, I collaborated on designing, testing, and optimizing robotic systems. From programming and assembly to troubleshooting and documentation, I gained hands-on experience across the entire development lifecycle. This internship not only enhanced my technical skills but also exposed me to the innovative culture of TechMaghi, where creativity and collaboration drive groundbreaking advancements in robotics technology.</p>
-            </ul>
-            <button class="Sbtn" onclick="window.location.href='https://drive.google.com/file/d/1X25nDnwptu9wODRJXMX6OatcnDc_9VG3/view?usp=sharing'">Show Credential -></button>
+          <button class="Sbtn" onclick="window.location.href='https://drive.google.com/file/d/1X25nDnwptu9wODRJXMX6OatcnDc_9VG3/view?usp=sharing'">Show Credential -></button>
          </div>
-         <div class="row1">
+               </ul>
+        <div class="row1">
             <ul>
                 <li>Embedded System And Robotics</li>
                 <p class="port-disc">During my internship at TechMaghi, I had the privilege to delve into the realm of embedded systems and robotics, gaining invaluable hands-on experience in this cutting-edge field. Under the mentorship of seasoned engineers, I contributed to the development and optimization of robotic systems, leveraging embedded systems technology to enhance their functionality and performance. From designing and programming microcontrollers to integrating sensors and actuators, I actively participated in every stage of the project lifecycle. This immersive experience not only deepened my technical skills but also honed my problem-solving abilities and teamwork dynamics, setting a solid foundation for my future career endeavors in robotics and embedded systems engineering.</p>
@@ -140,31 +141,47 @@
             <p>Experience</p>
          </div>
          <div class="Experience-content">
-         <div class="row1">
+           <div class="row1">
             <ul>
                 <li>Campus Ambassador</li>
                 <p>During my tenure as a Campus Ambassador at InTrainz Training Company from August 2023 to February 2024, I had the privilege of representing the organization and promoting its programs within my university community. This experience provided me with valuable leadership skills, networking opportunities, and insights into the world of professional training and development.</p>
             </ul>
             <button class="Ebtn" onclick="window.location.href='https://drive.google.com/file/d/1940JneigfYNcZyeN463-23A353a7PuFa/view?usp=sharing'">Show Credential -></button>
-         </div>
-         <div class="row1">
+           </div>
+           <div class="row1">
             <ul>
                 <li>Subject Matter Expert</li>
                 <p>My experience at Chegg as a Subject Matter Expert in advanced physics from September 2022 to November 2023 was enriching and fulfilling. As an SME, I had the opportunity to assist students worldwide with their physics queries, providing comprehensive explanations and guidance. Collaborating with a diverse team of experts and engaging with eager learners contributed to a dynamic and rewarding work environment.</p>
             </ul>
             <button class="Ebtn" onclick="window.location.href=''">Show Credential -></button>
-         </div>
-         <div class="row1">
+           </div>
+           <div class="row1">
             <ul>
                 <li>Project Head</li>
                 <p>As the project head for robotics at TechMaghi Training Company from September 2022 to November 2023, I led a dynamic team in exploring cutting-edge advancements in robotics technology. Overseeing project development and implementation, I gained invaluable leadership skills and hands-on experience in driving innovation in the field of robotics.</p>
             </ul>
             <button class="Ebtn" onclick="window.location.href=''">Show Credential -></button>
+           </div>
           </div>
        </div>
-      <br>
-      <br>
-      <br>
+
+      <div id="My-projects">
+        <div class="port_exp-nav">What I Did?
+           <p>My projects</p>
+        </div>
+        <div class="Project-contents">
+         <div class="rowP">
+           <ul>
+               <li>1.Personal Website</li>
+               <p class="port-disc">"Welcome to my personal portfolio website, where creativity meets functionality. Explore my diverse collection of projects, ranging from web design to graphic illustrations, showcasing my skills and passion for innovation. With a user-friendly interface and captivating visuals, dive into my world of artistry and expertise. Let's connect and collaborate to bring your ideas to life!"</p>
+           </ul>
+           <button class="Pbtn" onclick="window.location.href='https://github.com/deimos19/DevadarshM-Portfolio'">Personal Website</button>
+        </div>
+      </div>
+      </div>
+
+
+
        <div class="Status">
            <div class="port_exp-nav">What I am currently working on?
               <p>Status</p>
@@ -178,7 +195,6 @@
             <button class="Ebtn">Show Credential -></button>
          </div>
        </div>
-    </div>
     </div>       
        <div id="Contact">
            <div class="contact-container">
@@ -240,7 +256,7 @@
                 msg.innerHTML="Message sent successfully"
                 setTimeout(function(){
                     msg.innerHTML=""
-                },1000)
+                },3000)
                 form.reset()
             })
             .catch(error => console.error('Error!', error.message))
