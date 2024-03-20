@@ -5,18 +5,18 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 690px;
+    height: auto;
     background-attachment: fixed;
     padding-top: 230px;
 }
-/* .main {
+.main {
     background-image: url(images/bg4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 690px;
+    height: auto;
     background-attachment: fixed;
-} */
+}
 header{
     margin-top: -270px;
     margin-left: -5px;
