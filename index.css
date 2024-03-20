@@ -85,7 +85,7 @@ header ul li a:hover::after{
     margin-top: auto;
     word-spacing: 5px;
 }
-.Intro-lines button{
+.feed-btn button{
     height: 40px;
     width: 200px;
     border-radius: 100px;
@@ -556,7 +556,7 @@ form input, form textarea{
         margin-left: 50px;
     }
     header ul{
-        display: flex;
+        /* display: flex; */
         margin-top: -100px;
         width: auto;
         margin-left: 10px;
@@ -573,7 +573,7 @@ form input, form textarea{
     header ul li a{
         color: aliceblue;
         text-decoration: none;
-        font-size: 38px;
+        font-size: 48px;
         position:relative;
     }    
     #Intro{
@@ -596,7 +596,7 @@ form input, form textarea{
     .Intro-lines h6{
         font-size: 40px;
     }
-    .Intro-lines button{
+    .feed-btn button{
         height: 100px;
         width: 200px;
         font-size: 40px;
@@ -826,7 +826,7 @@ form input, form textarea{
     .contact-container p{
         color: aliceblue;
         font-size: 48px;
-        margin-left: 10px;
+        margin-left: 0px;
         text-align: center;
     }
     .contact-nav{

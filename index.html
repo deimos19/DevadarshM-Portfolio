@@ -21,11 +21,17 @@
             <li><a href="#My-projects">Projects</a></li>
             <li><a href="#Contact">Services</a></li>
         </ul>
+        <br>
+        <br>
+        <br>
      </header>
      <div id="Intro">
         <div class="Intro-lines">
           Hi!<br>I am Devadarsh<h6>FRONT END DEVELOPER</h6>
-          <button onclick="window.location.href='mailto:web.connect.deva@gmail.com?Subject=Hiring'">Hire</button>
+          <div class="feed-btn">
+            <button onclick="window.location.href='mailto:web.connect.deva@gmail.com?Subject=Hiring'">Hire</button>
+            <button onclick="openFeed()">My Feed</button>
+          </div>
         </div>  
     </div>
     </div> 
@@ -231,6 +237,12 @@
     </div>
    
     <script>
+         
+         function openFeed(){
+            window.open("feeds.html")
+         }
+
+
          var tablinks = document.getElementsByClassName("tab-links");
          var tabcontents = document.getElementsByClassName("tab-contents");
          function openTab(tabname){
