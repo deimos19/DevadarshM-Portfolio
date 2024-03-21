@@ -164,7 +164,19 @@ header ul li a:hover::after{
 @media only screen and (max-width: 1440px){
     body{
         background-image: none;
-        /* width: 1395px; */
+        width: auto;
         background-color: #000;
+    }
+    /* .container{
+        background-color: aquamarine;
+        width: auto;
+    } */
+    .image-foot{
+        height: auto;
+        width: auto;
+    }
+    .image-action{
+        background-color: #ee9292;
+        height: auto;
     }
 }
