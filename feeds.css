@@ -167,4 +167,7 @@ header ul li a:hover::after{
         width: auto;
         background-color: #000;
     }
+    .image-action{
+        background-color: transparent;
+    }
 }
