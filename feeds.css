@@ -102,6 +102,7 @@ header ul li a:hover::after{
 .container{
     /* background-color: rgba(94, 94, 97, 0.304); */
     /* background-color: rgba(239, 179, 171, 0.304); */
+    background-color: #000;
     height: auto;
     width: 645px;
     margin-left: 145px;
