@@ -1,3 +1,6 @@
+html{
+    background-color: #000;
+}
 body{
     background-color: #000000;
     width: auto;
@@ -5,7 +8,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 1500px;
+    /* height: 1500px; */
     background-attachment: fixed;
     padding-top: 230px;
 }
@@ -161,5 +164,6 @@ header ul li a:hover::after{
     body{
         background-image: none;
         /* width: 1395px; */
+        background-color: #000;
     }
 }
