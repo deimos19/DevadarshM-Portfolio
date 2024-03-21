@@ -167,16 +167,4 @@ header ul li a:hover::after{
         width: auto;
         background-color: #000;
     }
-    /* .container{
-        background-color: aquamarine;
-        width: auto;
-    } */
-    .image-foot{
-        height: auto;
-        width: auto;
-    }
-    .image-action{
-        background-color: #ee9292;
-        height: auto;
-    }
 }
