@@ -846,6 +846,7 @@ form input, form textarea{
         margin-top: 0px;
         margin-left: -18px;
         text-align: center;
+        word-spacing: 3px;
     }
     .social-icons{
         margin-left: 90px;
