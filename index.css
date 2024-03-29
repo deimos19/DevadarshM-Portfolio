@@ -187,7 +187,7 @@ header ul li a:hover::after{
 }
 #Portfolio{
     margin-top: 30px;
-    height: 500px;
+    height: auto;
     width: 100%;
    /* background-color: rgba(146, 84, 74, 0.203);*/
     border-radius: 40px;
@@ -266,15 +266,15 @@ header ul li a:hover::after{
 }
 #Experience{
     margin-top: 30px;
-    height: 880px;
+    height: auto;
     width: 100%;
     /*background-color: rgba(146, 84, 74, 0.203);*/
     border-radius: 40px;
     background-color: #000;
 }
 #My-projects{
-    margin-top: -270px;
-    height: 500px;
+    margin-top: 70px;
+    height: auto;
     width: 100%;
    /* background-color: rgba(146, 84, 74, 0.203);*/
     border-radius: 40px;
@@ -328,8 +328,8 @@ header ul li a:hover::after{
 }
 
 .Status{
-    margin-top: -220px;
-    height: 300px;
+    margin-top: -70px;
+    height: auto;
     width: 100%;
     /*background-color: rgba(0, 30, 255, 0.203);*/
     border-radius: 40px;   
@@ -337,8 +337,8 @@ header ul li a:hover::after{
 }
 
 #Skills{
-    margin-top: 340px;
-    height: 630px;
+    margin-top: 440px;
+    height: auto;
     width: 100%;
    /*background-color: rgba(146, 84, 74, 0.203);*/
     border-radius: 40px; 
