@@ -3,293 +3,310 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="viewport" content="1024px, initial-scale2.0">
-    <link rel="stylesheet" href="index.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="icon" type="images" href="images/icon pf.png">
-    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles\style.css">
+    <title>Portfolio</title>
+    <style>
+      hr {
+          border: none;
+          height: 1px; 
+          background-color: #ffffff;
+          margin: 20px auto;
+          width: 80%;
+          margin-top: 50px;
+      }
+  </style>
 </head>
-<body>
-    <div class="main">
-     <header>
-        <h3>DEVADARSH M</h3>
-        <ul>
-            <li><a href="#Intro">Home</a></li>
-            <li><a href="#Profile">About</a></li>
-            <li><a href="#Portfolio">Portfolio</a></li>
-            <li><a href="#Skills">Skills</a></li>
-            <li><a href="#Experience">Experience</a></li>
-            <li><a href="#My-projects">Projects</a></li>
-            <li><a href="#Contact">Services</a></li>
-        </ul>
-        <br>
-        <br>
-        <br>
-     </header>
-     <div id="Intro">
-        <div class="Intro-lines">
-          Hi!<br>I am Devadarsh<h6>FRONT END DEVELOPER</h6>
-          <div class="feed-btn">
-            <button onclick="window.location.href='mailto:web.connect.devaa@gmail.com?Subject=Hiring'">Hire</button>
-            <button onclick="openFeed()">My Feed</button>
+<body class="body bg-dark">
+    <nav class="navbar navbar-expand-lg bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="#">My Portfolio .</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-white" href="#">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-dark button-service" href="#">Request Service</a>
+              </li>
+            </ul>
           </div>
-        </div>  
-    </div>
-    </div> 
-    <div class="Container">
-       <div id="Profile">
-         <div class="Profile-Dp">
-            <img src="images/DP.jpg" alt="">
-         </div> 
-         <div class="Profile-content">
-            <div class="Cont-Nav">About Me</div>
-            <div class="About">
-                <p>I'm Devadarsh M, a passionate student at APJ Abdul Kalam Technological University, deeply immersed in the world of web development with a specialization in web design. With a versatile skill set encompassing programming languages like C, Java, Python, HTML, CSS, JavaScript, and even Arduino, I thrive on bringing creativity and functionality together to craft visually stunning and user-friendly digital experiences. From conceptualizing designs to implementing cutting-edge technologies, I am committed to pushing the boundaries of web development. Beyond coding, I'm an avid learner, constantly exploring new avenues to expand my knowledge and skills. Let's collaborate and create something remarkable!</p>
-
-                <div class="tabs">
-                    <p class="tab-links active-link" onclick=" openTab('skills')">Skills</p>
-                    <p class="tab-links" onclick=" openTab('education')">Education</p>
+        </div>
+      </nav>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-3">
+            <div class="image">
+              <div class="dp">
+                <img src="images/DP.jpg" class="rounded mx-auto d-block dp-img" alt="...">
+              </div>
+              <div class="text">
+                <h5>Devadarsh M</h5>
+                <p>Frontend Developer | Machine Learning | Ai Developer</p>
+              </div>
+              <div class="details">
+                <div class="place">
+                  <div class="container overflow-hidden text-center">
+                    <div class="row gx-5">
+                      <div class="col col-place">
+                       <div class="p-0 p-left">Residence:</div>
+                      </div>
+                      <div class="col col-place">
+                        <div class="p-0 p-right">India</div>
+                      </div>
+                    </div>
+                    <div class="row gx-5">
+                      <div class="col col-place">
+                       <div class="p-0 p-left">City:</div>
+                      </div>
+                      <div class="col col-place">
+                        <div class="p-0 p-right">Kollam</div>
+                      </div>
+                    </div>
+                    <div class="row gx-5">
+                      <div class="col col-place">
+                       <div class="p-0 p-left">Age:</div>
+                      </div>
+                      <div class="col col-place">
+                        <div class="p-0 p-right">23</div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-
-                <div class="tab-contents active-tab" id="skills">
-                    <ul>
-                        <li><span>WEB DESIGN</span><br>Designing Web interfaces</li>
-                        <li><span>ARDUINO</span><br>Robot programming</li>
-                        <li><span>WEB DEVELOPMENT</span><br>Website development</li>
-                        <li><span>PYTHON</span><br>Python Programming</li>
-                    </ul>
+                <hr>
+                <div class="language">
+                  <div class="progress-container">
+                    <div class="progress-item">
+                        <svg class="circular-progress" viewBox="0 0 100 100">
+                            <circle class="progress-background" cx="50" cy="50" r="45"></circle>
+                            <circle class="progress" cx="50" cy="50" r="45" style="stroke-dashoffset: 10;"></circle> <!-- Set stroke-dashoffset according to the progress -->
+                            <text class="progress-text" x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">90%</text>
+                            <p class="lang">English</p>
+                        </svg>
+                    </div>
+                    <div class="progress-item">
+                        <svg class="circular-progress" viewBox="0 0 100 100">
+                            <circle class="progress-background" cx="50" cy="50" r="45"></circle>
+                            <circle class="progress" cx="50" cy="50" r="45" style="stroke-dashoffset: 0;"></circle> <!-- Set stroke-dashoffset according to the progress -->
+                            <text class="progress-text" x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">100%</text>
+                            <p class="lang">Malayalam</p>
+                        </svg>
+                    </div>
+                    <div class="progress-item">
+                        <svg class="circular-progress" viewBox="0 0 100 100">
+                            <circle class="progress-background" cx="50" cy="50" r="45"></circle>
+                            <circle class="progress" cx="50" cy="50" r="45" style="stroke-dashoffset: 200;"></circle> <!-- Set stroke-dashoffset according to the progress -->
+                            <text class="progress-text" x="50%" y="50%" dominant-baseline="middle" text-anchor="middle">30%</text>
+                            <p class="lang">Hindi</p>
+                        </svg>
+                    </div>
+                  </div>
                 </div>
-
-                <div class="tab-contents" id="education">
-                    <ul>
-                        <li><span>2022 - Current</span><br>B.Tech(APJ Abdul Kalam Technological University)<br>Younus College Of Engineering And technology,KOLLAM,KERALA,INDIA</li>
-                        <li><span>2018 - 2020</span><br>Higher Secondary Education<br>Govt. GHSS Vakkanadu,Kollam,KERALA,INDIA</li>
-                    </ul>
+                <hr>
+                <div class="skills">
+                  <p class="skill-text"><i class="fa-brands fa-html5"></i>html</p>
+                  <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar text-bg-warning" style="width: 95%"></div>
+                  </div>
+                  <p class="skill-text"><i class="fa-brands fa-css3-alt"></i>css</p>
+                  <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar text-bg-warning" style="width: 70%"></div>
+                  </div>
+                  <p class="skill-text"><i class="fa-brands fa-python"></i>python</p>
+                  <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar text-bg-warning" style="width: 80%"></div>
+                  </div>
+                  <p class="skill-text"><i class="fa-solid fa-gears"></i>machine learning</p>
+                  <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar text-bg-warning" style="width: 65%"></div>
+                  </div>
+                  <p class="skill-text"><i class="fa-brands fa-js"></i>javascript</p>
+                  <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar text-bg-warning" style="width: 60%"></div>
+                  </div>
+                  <p class="skill-text"><i class="fa-brands fa-java"></i>java</p>
+                  <div class="progress" role="progressbar" aria-label="Warning example" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                    <div class="progress-bar text-bg-warning" style="width: 75%"></div>
+                  </div>
+                  
                 </div>
+              </div>
             </div>
-         </div>
-       </div>
-       <div id="Portfolio">
-         <div class="port_exp-nav">What I Did?
-            <p>Portfolio</p>
-         </div>
-         <div class="Portfolio-contents">
-         <div class="row1">
-            <ul>
-                <li>Robotics</li>
-                <p class="port-disc">During my internship at TechMaghi, I had the incredible opportunity to dive into the world of robotics and contribute to cutting-edge projects. Under the guidance of experienced engineers, I collaborated on designing, testing, and optimizing robotic systems. From programming and assembly to troubleshooting and documentation, I gained hands-on experience across the entire development lifecycle. This internship not only enhanced my technical skills but also exposed me to the innovative culture of TechMaghi, where creativity and collaboration drive groundbreaking advancements in robotics technology.</p>
-            </ul>
-          <button class="Sbtn" onclick="window.location.href='https://drive.google.com/file/d/1X25nDnwptu9wODRJXMX6OatcnDc_9VG3/view?usp=sharing'">Show Credential -></button>
-         </div>
-         
-         <div class="row1">
-            <ul>
-                <li>Embedded System And Robotics</li>
-                <p class="port-disc">During my internship at TechMaghi, I had the privilege to delve into the realm of embedded systems and robotics, gaining invaluable hands-on experience in this cutting-edge field. Under the mentorship of seasoned engineers, I contributed to the development and optimization of robotic systems, leveraging embedded systems technology to enhance their functionality and performance. From designing and programming microcontrollers to integrating sensors and actuators, I actively participated in every stage of the project lifecycle. This immersive experience not only deepened my technical skills but also honed my problem-solving abilities and teamwork dynamics, setting a solid foundation for my future career endeavors in robotics and embedded systems engineering.</p>
-            </ul>
-            <button class="Sbtn" onclick="window.location.href='https://drive.google.com/file/d/1FZCJuZahaVOwE3KzvABZ91Iz5nBAzMwZ/view?usp=sharing'">Show Credential -></button>
-         </div>
-         <div class="row1">
-            <ul>
-                <li>Python Programming</li>
-                <p class="port-disc">During my internship at the ICT Academy of Kerala, I had the invaluable opportunity to immerse myself in the world of Python programming. This intensive program provided me with a structured curriculum and hands-on learning experiences that significantly enhanced my skills and knowledge in Python.Under the guidance of seasoned instructors, I delved into the fundamentals of Python, including syntax, data structures, and control flow. Through interactive lectures and practical exercises, I gained a solid understanding of Python's versatile capabilities and its applications in software development.</p>
-            </ul>
-            <button class="Sbtn" onclick="window.location.href='https://drive.google.com/file/d/1BjVlFYV-Hq-LRHbOoeOYZ8mTvjfqRb3f/view?usp=sharing';">Show Credential -></button>
-         </div>
-         <div class="row1">
-            <ul>
-                <li>Machine Learning</li>
-                <p class="port-disc">I recently attended an insightful workshop on machine learning where industry experts delved into various algorithms, data preprocessing techniques, and real-world applications. The workshop provided hands-on experience with popular ML libraries and emphasized the importance of understanding data and model evaluation. It was a great opportunity to enhance my skills and network with fellow enthusiasts in the field.</p>
-            </ul>
-          <button class="Sbtn" onclick="window.location.href='https://drive.google.com/file/d/1KNO4JxcLdIrNvEC4zrg4ONqFALYDok6J/view?usp=sharing'">Show Credential -></button>
-         </div>
-         <div class="row1">
-            <ul>
-                <li>Self Driving Electric Vehicles</li>
-                <p class="port-disc">I recently had the privilege of attending an online webinar hosted by IIT Kharagpur, focusing on the fascinating topic of self-driving electric vehicles. The webinar provided an insightful overview of the intersection between autonomous technology and sustainable transportation, offering valuable insights into the future of mobility.One of the highlights of the webinar was the depth of knowledge shared by the panel of experts from IIT Kharagpur. Their expertise in areas such as artificial intelligence, robotics, and electric vehicle technology provided a comprehensive understanding of the challenges and opportunities in developing self-driving electric vehicles.</p>
-            </ul>
-            <button class="Sbtn" onclick="window.location.href='https://drive.google.com/file/d/1196Kvk4PcbjBcpeH8WJ6DvUWqgJOSvJd/view?usp=sharing'">Show Credential -></button>
-         </div>
-       </div>
-    </div>
-       <br>
-       <br>
-       <br>
-       <div id="Skills">
-           <div class="port_exp-nav">What I know?
-              <p>Skills</p>
-           </div>
-         <div class="row-skill-1">
-            <div class="skillr1">
-                <p>HTML</p>
-                <p class="disc">Proficient in HTML coding with expertise in creating well-structured and semantically correct web pages. Experienced in utilizing HTML5 features and optimizing for accessibility and SEO.</p>
-            </div>
-            <div class="skillr1">
-                <p>CSS</p>
-                <p class="disc">Skilled in CSS for designing visually appealing and responsive websites. Proficient in layout design, styling elements, and implementing animations/transitions for enhanced user experience.</p>
-            </div>
-            <div class="skillr1">
-                <p>JAVA SCRIPT</p>
-                <p class="disc">Skilled in JavaScript development, proficient in building interactive and dynamic web applications. Experienced in utilizing libraries and frameworks such as React.js and Node.js to create efficient and scalable solutions.</p>
-            </div>
-         </div>
-         <div class="row-skill-2">
-            <div class="skillr2">
-                <p>PYTHON PROGRAMMING</p>
-                <p class="disc">Skilled Python programmer adept at developing efficient and scalable solutions for various tasks. Experienced in utilizing Python libraries and frameworks to automate processes, analyze data, and build robust applications.</p>
-            </div>
-            <div class="skillr2">
-                <p>ARDUINO</p>
-                <p class="disc">Skilled in Arduino programming, adept at designing and implementing embedded systems and IoT projects. Proficient in writing efficient and modular code to control sensors, actuators, and other hardware components.</p>
-            </div>
-            <div class="skillr2">
-                <p>C PROGRAMMING</p>
-                <p class="disc">Skilled in C programming with proficiency in algorithm implementation, data structures, and memory management. Experienced in developing efficient and scalable software solutions using C.</p>
-            </div>
-         </div>
-       </div>
-        <br>
-        <br>
-        <br>
-       <div id="Experience">
-         <div class="port_exp-nav">What I Got?
-            <p>Experience</p>
-         </div>
-         <div class="Experience-content">
-           <div class="row1">
-            <ul>
-                <li>Campus Ambassador</li>
-                <p>During my tenure as a Campus Ambassador at InTrainz Training Company from August 2023 to February 2024, I had the privilege of representing the organization and promoting its programs within my university community. This experience provided me with valuable leadership skills, networking opportunities, and insights into the world of professional training and development.</p>
-            </ul>
-            <button class="Ebtn" onclick="window.location.href='https://drive.google.com/file/d/1940JneigfYNcZyeN463-23A353a7PuFa/view?usp=sharing'">Show Credential -></button>
-           </div>
-           <div class="row1">
-            <ul>
-                <li>Subject Matter Expert</li>
-                <p>My experience at Chegg as a Subject Matter Expert in advanced physics from September 2022 to November 2023 was enriching and fulfilling. As an SME, I had the opportunity to assist students worldwide with their physics queries, providing comprehensive explanations and guidance. Collaborating with a diverse team of experts and engaging with eager learners contributed to a dynamic and rewarding work environment.</p>
-            </ul>
-            <button class="Ebtn" onclick="window.location.href=''">Show Credential -></button>
-           </div>
-           <div class="row1">
-            <ul>
-                <li>Project Head</li>
-                <p>As the project head for robotics at TechMaghi Training Company from September 2022 to November 2023, I led a dynamic team in exploring cutting-edge advancements in robotics technology. Overseeing project development and implementation, I gained invaluable leadership skills and hands-on experience in driving innovation in the field of robotics.</p>
-            </ul>
-            <button class="Ebtn" onclick="window.location.href=''">Show Credential -></button>
-           </div>
           </div>
-       </div>
-
-      <div id="My-projects">
-        <div class="port_exp-nav">What I Did?
-           <p>My projects</p>
-        </div>
-        <div class="Project-contents">
-         <div class="rowP">
-           <ul>
-               <li>1.Personal Website</li>
-               <p class="port-disc">"Welcome to my personal portfolio website, where creativity meets functionality. Explore my diverse collection of projects, ranging from web design to graphic illustrations, showcasing my skills and passion for innovation. With a user-friendly interface and captivating visuals, dive into my world of artistry and expertise. Let's connect and collaborate to bring your ideas to life!"</p>
-           </ul>
-           <button class="Pbtn" onclick="window.location.href='https://github.com/deimos19/DevadarshM-Portfolio'">Personal Website</button>
-        </div>
-        <div class="rowP">
-            <ul>
-                <li>2.Fuel Cost Calculator</li>
-                <p class="port-disc">"Welcome to the Fuel Cost Calculator, your go-to tool for accurately estimating the total cost of fuel for your journeys. Whether you're planning a road trip, commuting to work, or simply curious about the expenses of your daily travels, our calculator provides you with precise figures based on your input."</p>
-            </ul>
-            <button class="Pbtn" onclick="window.location.href='https://deimos19.github.io/FuelCostCalculator/'">Calculator Website</button>
+          <div class="col-9">
+            <div class="banner">
+              <img src="images/banner.jpg" class="img-fluid" alt="banner">
+              <h1>Discover my Portfolio</h1>
+              <p>I build Ai projects and Websites</p>
+              <a class="btn btn-primary banner-btn" href="#" role="button" style="border-radius: 0px;">EXPLORE NOW</a>
+            </div>
+            <div class="ads">
+              <div class="container text-center">
+                <div class="row align-items-start">
+                  <div class="col">
+                    <div class="ad-text">
+                      <h2>3+</h2>
+                      <p>Years of experience</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="ad-text">
+                      <h2>10+</h2>
+                      <p>Completed Projects</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="ad-text">
+                      <h2>2</h2>
+                      <p>Happy Costumers</p>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="ad-text">
+                      <h2>10+</h2>
+                      <p>Certifications</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <hr style="margin-top:30px;">
+            <div class="service">
+              <h2>My Services</h2>
+              <div class="card-group">
+                <div class="card bg">
+                  <i class="fa-solid fa-spray-can"></i>
+                  <div class="card-body">
+                    <h5 class="card-title">Website Designing</h5>
+                    <p class="card-text">Crafting visually stunning and user-centric websites, I combine creativity with functionality to deliver designs that captivate and engage. Whether it’s a sleek portfolio or an intricate business website, I ensure each design is responsive, modern, and tailored to your needs.</p>
+                  </div>
+                </div>
+                <div class="card bg">
+                  <i class="fa-solid fa-gears"></i>
+                  <div class="card-body">
+                    <h5 class="card-title">Machine Learning Projects</h5>
+                    <p class="card-text">Unlock the potential of data with my expertise in machine learning. From predictive models to intelligent automation, I specialize in creating data-driven solutions that enhance decision-making and optimize processes for businesses across various industries.</p>
+                  </div>
+                </div>
+                <div class="card bg">
+                  <i class="fa-brands fa-connectdevelop"></i>
+                  <div class="card-body">
+                    <h5 class="card-title">Website Development</h5>
+                    <p class="card-text">Building dynamic and robust websites, I offer comprehensive web development services that cover everything from frontend to backend. I create scalable, high-performance applications using the latest technologies, ensuring your website is not only fast but also secure and easy to maintain.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+      </div>
+      <div class="container-fluid">
+         <div class="service-request">
+          <div class="card text-center about bg-dark">
+            <div class="card-header">
+              <h2>About me</h2>
+              <p class="card-text">I am a 3rd-year Computer Science and Engineering student at Younus College of Engineering and Technology (YCET), under APJ Abdul Kalam Technological University (KTU) in Kollam, Kerala. Passionate about coding and innovation, I’m deeply interested in fields like machine learning, artificial intelligence, and web development. My technical skillset includes HTML, CSS, Python, Java, JavaScript, OpenCV, TensorFlow, and Flask, which I use to build creative solutions that push the boundaries of technology.</p>
+              <i class="fa-solid fa-code about-i"></i>
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">See My Projects</h5>
+              <p class="card-text">Explore my portfolio of diverse projects spanning web development, machine learning, and artificial intelligence. From responsive websites to real-time sign language detection and predictive analytics, these projects showcase my technical skills and dedication to solving complex challenges. Each project reflects innovation and a passion for leveraging technology to create meaningful solutions. Click on any project to dive deeper into the details and see the impact!</p>
+              <a href="#" class="btn btn-primary text-dark">See Projects >></a>
+            </div>
+            <div class="card-footer text-body-secondary">
+              2 days ago
+            </div>
+          </div>
+          <div class="request-service">
+            <h2>Request a Service</h2>
+            <form action="/submit-service-request" method="POST">
+                <div class="form-group">
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                </div>
+        
+                <div class="form-group">
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                </div>
+        
+                <div class="form-group">
+                    <label for="service">Service Requested:</label>
+                    <select id="service" name="service" required>
+                        <option value="" disabled selected>Select a service</option>
+                        <option value="web-design">Web Design</option>
+                        <option value="web-development">Web Development</option>
+                        <option value="machine-learning">Machine Learning</option>
+                        <option value="custom">Custom Service</option>
+                    </select>
+                </div>
+        
+                <div class="form-group">
+                    <label for="details">Additional Details:</label>
+                    <textarea id="details" name="details" rows="4" placeholder="Provide more details about your request"></textarea>
+                </div>
+        
+                <button type="submit" class="btn-submit">Submit Request</button>
+            </form>
+          </div>
+         </div>
+         <div class="recent">
+          <h1>My Recent Works</h1>
+          <div class="row row-cols-1 row-cols-md-3 g-4 recent-works">
+            <div class="col">
+              <div class="card h-100 bg-dark">
+                <img src="images/web2.png" class="card-img-top" alt="...">
+                <div class="card-body bg">
+                  <h5 class="card-title">GrapplTech | Web component development | Hero Section</h5>
+                  <p class="card-text">Designed and developed a responsive hero section for an e-learning website. Features include course filtering by category, search functionality, and an instant registration form. Built from scratch without external libraries, ensuring a clean and user-friendly interface..</p>
+                </div>
+                <div class="text-project">
+                  <a class="btn btn-primary text-dark" href="#" role="button">See More..</a>
+                  <p>August 2024</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 bg-dark">
+                <img src="images/web1.png" class="card-img-top" alt="...">
+                <div class="card-body bg">
+                  <h5 class="card-title">ML | Sign language Detection and Prediction WebApp</h5>
+                  <p class="card-text">Developed a real-time web application for detecting and predicting sign language gestures using machine learning. Integrated OpenCV and TensorFlow for hand tracking and gesture classification, with a user-friendly interface for live predictions and sign-to-text conversion.</p>
+                </div>
+                <div class="text-project">
+                  <a class="btn btn-primary text-dark" href="#" role="button">See More..</a>
+                  <p>July 2024</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 bg-dark">
+                <img src="images/web3.png" class="card-img-top" alt="...">
+                <div class="card-body bg">
+                  <h5 class="card-title">Real-Time Stock Market Prediction | Website</h5>
+                  <p class="card-text">Created a web application that provides real-time stock market predictions using machine learning algorithms. The site features live data visualization, trend analysis, and predictive insights, offering users an intuitive platform for monitoring stock performance and making informed decisions.</p>
+                </div>
+                <div class="text-project">
+                  <a class="btn btn-primary text-dark" href="#" role="button">See More..</a>
+                  <p>June 2024</p>
+                </div>
+              </div>
+            </div>
+          </div>
          </div>
       </div>
-      </div>
 
 
-
-       <div class="Status">
-           <div class="port_exp-nav">What I am currently working on?
-              <p>Status</p>
-           </div>
-           <div class="Status-content">
-         <div class="row1">
-            <ul>
-                <li>PetCharm.in</li>
-                       <p>"PetCharm is an exciting project I'm currently immersed in. It's a comprehensive website dedicated to serving all things pet-related. From accessories and products to the adoption of beloved furry friends, PetCharm offers a one-stop destination for pet lovers. Our platform goes beyond just sales; we extend services such as consultations and boarding to ensure the well-being of pets and peace of mind for their owners. It's a labor of love aimed at enriching the lives of both pets and their human companions."</p>
-            </ul>
-            <button class="Ebtn">Show Credential -></button>
-         </div>
-       </div>
-    </div>       
-       <div id="Contact">
-           <div class="contact-container">
-            <p>For My Service</p>
-            <div class="contact-row">
-                <div class="contact-left">
-                    <div class="contact-nav">
-                      <h1>Contact Me</h1>
-                      <p><i class="fa-sharp fa-solid fa-paper-plane"></i>web.connect.deva@gmail.com</p>
-                    </div>  
-                    <div class="social-icons">
-                        <a href="https://www.linkedin.com/in/devadarshm/"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://www.instagram.com/connect_deva?igsh=MWlsM2g5NGhpdTJ3eg=="><i class="fa-brands fa-instagram"></i></i></a>
-                        <a href="https://github.com/deimos19"><i class="fa-brands fa-github"></i></i></a>
-                        <a href="https://twitter.com/DEVADARSH_M"><i class="fa-brands fa-twitter"></i></i></i></a>
-                    </div>
-                    <div class="dwnld-CV">
-                      <a href="images/cv.pdf" download="images/cv.pdf">Download CV</a>
-                    </div>
-                </div>
-                <div class="contact-right">
-                    <form name="submit-to-google-sheet">
-                        <input type="text" name="Name" placeholder="Your Name" required>
-                        <input type="email" name="Email" placeholder="Your Email" required>
-                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
-                        <button type="submit" class="submit">Submit</button>
-                    </form>
-                    <span id="msg"></span>
-                </div>
-            </div>
-           </div>
-       </div>
-       <div class="footer">Copywrite [ DM Creations ] ©2024</div>
-    </div>
-   
-    <script>
-         
-         function openFeed(){
-            window.open("feeds.html")
-         }
-
-
-         var tablinks = document.getElementsByClassName("tab-links");
-         var tabcontents = document.getElementsByClassName("tab-contents");
-         function openTab(tabname){
-            for(tablink of tablinks){
-                tablink.classList.remove("active-link");
-            }
-            for(tabcontent of tabcontents){
-                tabcontent.classList.remove("active-tab");
-            }
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
-         }
-    </script>
-    <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbxP1wv-2N3TngfMRRNFNtspPUYKdYzNqGnsbwRSg6xt25qMQOTdDqbjdLYZfdIfdFBd/exec'
-        const form = document.forms['submit-to-google-sheet']
-        const msg = document.getElementById("msg")
-        form.addEventListener('submit', e => {
-          e.preventDefault()
-          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-            
-            .then(response => {
-                msg.innerHTML="Message sent successfully"
-                setTimeout(function(){
-                    msg.innerHTML=""
-                },3000)
-                form.reset()
-            })
-            .catch(error => console.error('Error!', error.message))
-        })
-      </script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

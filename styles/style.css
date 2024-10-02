@@ -1,0 +1,338 @@
+
+.image{
+    background-color: black;
+}
+.dp {
+    text-align: center;
+    padding-top: 2rem;
+}
+.dp-img {
+    width: 180px; /* Set a width for the DP image */
+    height: 180px; /* Set a height for the DP image */
+}
+.text{
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    padding-bottom: 3rem;
+}
+.details{
+    background-color: rgb(31, 31, 31);
+}
+.p-left{
+    text-align: left;
+    color: rgb(181, 179, 179);
+}
+.p-right{
+    text-align: right;
+    color: rgb(181, 179, 179);
+}
+
+.progress-container {
+    display: flex;
+    gap: 1rem; 
+    justify-content: center;
+}
+
+.circular-progress {
+    width: 90%;
+    height: 100%;
+}
+
+.progress-background {
+    fill: none;
+    stroke: #e0e0e0;
+    stroke-width: 10;
+}
+
+.progress {
+    fill: none;
+    stroke: rgb(218, 200, 1);
+    stroke-width: 10;
+    stroke-dasharray: 283; 
+    transition: stroke-dashoffset 0.5s ease; /* Transition for smooth animation */
+}
+
+.progress-text { 
+    font-family: Arial, sans-serif; /* Font family */
+    font-size: 1.2rem; /* Font size */
+    fill: rgb(218, 200, 1); /* Text color */
+}
+.lang{
+    text-align: center;
+    color: rgb(171, 171, 171);
+    font-size: 0.8rem;
+    /* margin-top: 1rem; */
+}
+.skills{
+    padding: 2rem;
+}
+.skill-text{
+    text-align: left;
+    color: white;
+    margin-bottom: 0%;
+}
+.skill-text i{
+    color: rgb(218, 200, 1);
+    margin-right: 0.5rem;
+    font-size: 1.3rem;
+}
+.progress{
+    margin-bottom: 2rem;
+    height: 0.4rem;
+}
+.progress-bar{
+    background-color: rgb(218, 200, 1);
+    
+}
+.banner{
+    position: relative;
+    width: 100%;
+}
+.banner h1, .banner p, .banner-btn{
+    position: absolute;
+    color: white;
+    left: 5%;
+    text-align: center;
+}
+.banner-btn {
+    top: 70%; /* Positioning from the top */
+    padding: 10px 20px; /* Adjust padding as needed */
+    font-size: 1rem; /* Adjust font size as needed */
+    z-index: 1; /* Ensure the button appears above the image */
+    background-color: rgb(218, 200, 1);
+    border: none;
+    color: black;
+}
+.banner h1 {
+    top: 20%;
+    font-size: 2.5rem;
+}
+.banner p {
+    top: 30%;
+    font-size: 1.2rem;
+}
+.col{
+    color: white;
+}
+.ads{
+    margin-top: 1rem;
+    padding-left: 3rem;
+}
+.ad-text{
+    display: flex;
+    text-align: center;
+}
+.ad-text h2{
+    color: rgb(218, 200, 1);
+    font-size: 2rem;
+}
+.ad-text p{
+    color: white;
+    margin-left: 0.5rem;
+    padding-top: 0.61rem;
+}
+.service{
+    color: rgb(180, 179, 179);
+    margin-top: 3rem;
+}
+.service h2{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+.bg{
+    background-color: #1e1e1e;
+}
+.card{
+    color: white;
+}
+.card i{
+    font-size: 7rem;
+    color: rgb(218, 200, 1);
+    text-align: center;
+    margin-top: 2rem;
+}
+.card-title, .card-text{
+    text-align: center;
+}
+.button-service{
+    background-color:rgb(218, 200, 1);
+    border-radius: 5px;
+}
+.service-request{
+    display: flex;
+    margin-top: 3rem;
+}
+.about-i{
+    font-size: 5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: rgb(218, 200, 1);
+}
+.about{
+    width: 60%;
+    border: none;
+}
+.card-header h2{
+    color: rgb(218, 200, 1);
+    font-size: 3rem;
+}
+
+.btn{
+    background-color: rgb(218, 200, 1);
+    border: none;
+}
+.request-service {
+    color: rgb(218, 200, 1);
+    width: 40%;
+    max-width: 100%;
+    /* margin: 0 auto; */
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.request-service h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group select, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #1e1e1e;
+    color: white;
+}
+.form-group input, .form-group select, .form-group textarea::placeholder{
+    color: #ccc;
+}
+.btn-submit {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(218, 200, 1);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: #0056b3;
+}
+.recent{
+    margin-top: 3rem;
+}
+.recent h1{
+    color: rgb(218, 200, 1);
+}
+.text-project{
+    background-color: #1e1e1e;
+    color: #ccc;
+    height: auto;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-size: 0.8rem;
+    text-align: center;
+}
+.recent-works{
+    margin-top: 1rem;
+}
+@media (max-width: 1024px){
+    .row{
+        display: block;
+    }
+    .col-9{
+        width: 100%;
+    }
+    .col-3{
+        width: 100%;
+    }
+    .circular-progress {
+        width: 100px;
+        height: 100px;
+    }
+    .ads{
+        padding-left: 0px;
+    }
+    .service-request{
+        display: block;
+    }
+    .request-service{
+        width: 100%;
+    }
+    .about{
+        width: 100%;
+    }
+    .col{
+        width: 100%;
+    }
+}
+@media (max-width: 1200px) {
+    .banner h1 {
+        font-size: 2rem; /* Decrease font size for smaller screens */
+    }
+    .ad-text p{
+        width: 100%;
+        text-align: right;
+    }
+
+    .banner p {
+        font-size: 1rem; /* Decrease font size for smaller screens */
+    }
+
+    .banner-btn {
+        padding: 8px 16px; /* Adjust button padding */
+        font-size: 0.9rem; /* Adjust font size for smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .banner h1 {
+        top: 15%; /* Adjust top position */
+        font-size: 1.8rem; /* Decrease font size for smaller screens */
+    }
+
+    .banner p {
+        top: 25%; /* Adjust top position */
+        font-size: 0.9rem; /* Decrease font size for smaller screens */
+    }
+
+    .banner-btn {
+        top: 55%; /* Adjust top position */
+        padding: 6px 12px; /* Adjust button padding */
+        font-size: 0.8rem; /* Further adjust font size */
+    }
+}
+
+@media (max-width: 480px) {
+    .banner h1 {
+        top: 20%; /* Further adjust top position */
+        font-size: 1.5rem; /* Further decrease font size */
+    }
+
+    .banner p {
+        top: 40%; /* Further adjust top position */
+        font-size: 0.8rem; /* Further decrease font size */
+    }
+
+    .banner-btn {
+        top: 65%; /* Further adjust top position */
+        padding: 4px 8px; /* Further adjust button padding */
+        font-size: 0.7rem; /* Further decrease font size */
+    }
+}
