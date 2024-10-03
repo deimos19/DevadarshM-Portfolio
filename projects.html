@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #0000007b;
+            color: white;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: rgb(218, 200, 1);
+            font-size: 48px;
+            margin-bottom: 50px;
+        }
+
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .project-card {
+            background-color: #333;
+            border: 2px solid rgb(218, 200, 1);
+            border-radius: 10px;
+            width: 300px;
+            padding: 20px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .project-card:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .project-card h3 {
+            font-size: 24px;
+            color: rgb(218, 200, 1);
+            margin-bottom: 15px;
+        }
+
+        .project-card p {
+            font-size: 16px;
+            color: #ddd;
+            margin-bottom: 20px;
+        }
+
+        .project-card a {
+            text-decoration: none;
+            color: rgb(218, 200, 1);
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+
+        .project-card a:hover {
+            color: white;
+        }
+
+        footer {
+            margin-top: 50px;
+            background-color: #222;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        footer p {
+            color: rgb(218, 200, 1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>My Projects</h1>
+        <div class="projects">
+            <div class="project-card">
+                <h3>Project Title 1</h3>
+                <p>Short description of the project goes here. It highlights the key features of the project.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Project Title 2</h3>
+                <p>Short description of the project goes here. It highlights the key features of the project.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+            <div class="project-card">
+                <h3>Project Title 3</h3>
+                <p>Short description of the project goes here. It highlights the key features of the project.</p>
+                <a href="#" target="_blank">View Project</a>
+            </div>
+            <!-- Add more project cards as needed -->
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Your Name. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
