@@ -343,7 +343,12 @@
 .portfolio-footer .social-icons a:hover {
     color: #007bff;
 }
-
+.pro-b{
+    /* border: 1.5px solid rgb(210, 172, 0); */
+    border-radius: none;
+    padding-bottom: 1rem;
+    box-shadow: 0 0 16px rgb(210, 172, 0);
+}
 @media (max-width: 1024px){
     .row{
         display: block;
