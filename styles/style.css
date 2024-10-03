@@ -255,6 +255,95 @@
 .for-phone{
     display: none;
 }
+.certificate-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #f9f9f9;
+}
+
+.certificate-section h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: rgb(218, 200, 1);
+
+}
+
+.certificates-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.certificate-card {
+    background-color: rgb(50, 50, 50);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 180px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.certificate-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.certificate-icon {
+    font-size: 48px;
+    color: rgb(218, 200, 1);
+    transition: color 0.3s;
+}
+
+.certificate-card:hover .certificate-icon {
+    color: #0056b3;
+}
+
+.certificate-card p {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.certificate-card a {
+    text-decoration: none;
+    color: #333;
+}
+
+.certificate-card a:hover {
+    color: #007bff;
+}
+.portfolio-footer {
+    background-color: #0000007b;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.portfolio-footer .footer-content p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.portfolio-footer .social-icons {
+    margin-top: 10px;
+}
+
+.portfolio-footer .social-icons a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.portfolio-footer .social-icons a:hover {
+    color: #007bff;
+}
+
 @media (max-width: 1024px){
     .row{
         display: block;
