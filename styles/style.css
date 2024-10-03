@@ -252,6 +252,9 @@
 .recent-works{
     margin-top: 1rem;
 }
+.for-phone{
+    display: none;
+}
 @media (max-width: 1024px){
     .row{
         display: block;
@@ -280,6 +283,9 @@
     }
     .col{
         width: 100%;
+    }
+    .for-phone{
+        display: block;
     }
 }
 @media (max-width: 1200px) {
