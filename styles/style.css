@@ -428,9 +428,9 @@
     .for-phone{
         display: block;
     }
-    .view-certificate-btn{
+    /* .view-certificate-btn{
         display: none;
-    }
+    } */
 }
 @media (max-width: 1200px) {
     .banner h1 {
