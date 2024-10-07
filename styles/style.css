@@ -193,7 +193,10 @@
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
-
+.main-req-window{
+    width: 50%;
+    margin-top: 2rem;
+}
 .request-service h2 {
     text-align: center;
     margin-bottom: 20px;
@@ -248,6 +251,7 @@
     padding-bottom: 0px;
     font-size: 0.8rem;
     text-align: center;
+    padding-bottom: 1rem;
 }
 .recent-works{
     margin-top: 1rem;
@@ -349,6 +353,49 @@
     padding-bottom: 1rem;
     box-shadow: 0 0 16px rgb(210, 172, 0);
 }
+.centre-heading{
+    color: rgb(210, 172, 0);
+    text-align: center;
+    padding-top: 1rem;
+    margin-bottom: 3rem;
+}
+.img-container {
+    position: relative;
+  }
+  
+  .view-certificate-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    border: none;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .card-img-top {
+    width: 100%;
+    height: auto;
+    transition: opacity 0.3s ease;
+  }
+  
+  .img-container:hover .card-img-top {
+    opacity: 0.6;
+  }
+  
+  .img-container:hover .view-certificate-btn {
+    opacity: 1;
+  }
+  
+.request-nav{
+    background-color: rgb(203, 179, 0);
+}  
+  
 @media (max-width: 1024px){
     .row{
         display: block;
